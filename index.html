@@ -4,10 +4,12 @@
     <title>Shower Presentation Engine</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&amp;subset=cyrillic">
     <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
     <style>
         .shower {
             --slide-ratio: calc(16 / 9);
+            font-family: 'PT Serif', serif;
         }
     </style>
 </head>
@@ -19,7 +21,7 @@
     </header>
 
     <section class="slide" id="cover">
-        <h2>Отчёт з</h2>
+        <h2>Доклад</h2>
         <p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
         <figure>
             <img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
@@ -49,8 +51,46 @@
         </style>
     </section>
 
+    <section class="slide we">
+        <h2>Кто мы?</h2>
+        <dl>
+            <dt>Профгруппа:</dt>
+            <dd>Поезд №45 Екатеринбург-Кисловодск</dd>
+            <dt>Профгруппорг:</dt>
+            <dd>Копырина Лариса Валентиновна</dd>
+            <dt>ЛНП:</dt>
+            <dd>Похорукова Елена Николаевна</dd>
+        </dl>
+        <img class="cover" width="1024" height="768" src="pictures/conductors-full.jpg" alt="Проводники профгруппы поезда №45 Екатеринбург-Кисловодск в полном составе">
+        <style>
+            .we h2 {
+                color: #ffffff;
+            }
+            .we dl {
+                color: rgba(0, 0, 0, 0.8);
+
+                background-color: rgba(255, 255, 255, 0.2);
+                border-radius: 20px;
+            }
+            .we dt {
+                margin-bottom: 25px;
+                margin-left: 20px;
+
+                font-weight: bold;
+                text-decoration: underline;
+            }
+            .we dd {
+                font-weight: bold;
+                font-style: italic;
+            }
+            .we img {
+                object-fit: cover;
+            }
+        </style>
+    </section>
+
     <section class="slide">
-        <h2>Shower key features</h2>
+        <h2>Кто мы?</h2>
         <ol>
             <li>Built on HTML, CSS and JavaScript</li>
             <li>Works in all modern browsers</li>
