@@ -1,5 +1,36 @@
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .shower {
     font-family: 'PT Serif', serif;
+}
+
+.grey {
+    background-color: #dcdcdc;
+}
+.grey h2,
+.grey p,
+.grey figcaption {
+    color: rgba(0, 0, 0, 1);
+}
+
+.grey .copyright {
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .black h2,
@@ -9,23 +40,17 @@
 }
 
 .black .copyright {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.4);
 }
 
-.white h2,
-.white p,
-.white figcaption {
-    color: rgba(0, 0, 0, 1);
-}
-
-.white .copyright {
-    color: rgba(0, 0, 0, 0.5);
-}
-
-.scale-cover {
+.cover {
     object-fit: cover;
+    opacity: 0.2;
 }
 
+.report h2 {
+    text-align: center;
+}
 .report h2,
 .report .paragraph {
     width: 41%;
@@ -45,6 +70,84 @@
     border-radius: 25px;
     object-fit: cover;
 }
-.report .cover {
-    opacity: 0.2;
+
+.title h2 {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.brigade h2 {
+    text-align: center;
+}
+.brigade h2,
+.brigade .paragraph {
+    width: 35%;
+    padding: 1% 3%;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+.brigade .img-kit-brigade {
+    position: absolute;
+    top: 0;
+    right: 3.5%;
+
+    width: 50%;
+    height: 100%;
+}
+.brigade .img-brigade {
+    position: absolute;
+    top: 10%;
+
+    width: 100%;
+    height: auto;
+
+    border-radius: 25px;
+    object-fit: cover;
+}
+.brigade .paragraph-brigade {
+    position: absolute;
+    bottom: 10%;
+    left: 2.5%;
+
+    width: 90%;
+
+    text-align: center;
+}
+.brigade .img-kit-passport-trust{
+    position: absolute;
+    top: 0;
+    left: 11.5%;
+
+    width: 30%;
+    height: 100%;
+}
+.brigade .img-passport-trust {
+    position: absolute;
+    bottom: 10%;
+
+    width: 100%;
+    height: auto;
+
+    border-radius: 25px;
+    object-fit: cover;
+}
+.brigade .paragraph-passport-trust {
+    position: absolute;
+    bottom: 52%;
+    left: 2.5%;
+
+    width: 90%;
+
+    text-align: center;
+}
+.brigade .logo-rzd {
+    position: absolute;
+    bottom: 70%;
+    left: 25%;
+
+    width: 50%;
+    height: auto;
+
+    border-radius: 25px;
+    object-fit: cover;
 }
