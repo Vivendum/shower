@@ -12,6 +12,16 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
+.white h2,
+.white p,
+.white figcaption {
+    color: rgba(0, 0, 0, 1);
+}
+
+.white .copyright {
+    color: rgba(0, 0, 0, 0.5);
+}
+
 .scale-cover {
     object-fit: cover;
 }
@@ -21,7 +31,7 @@
     width: 41%;
     padding: 1% 3%;
 
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 25px;
 }
 .report .img-block {
@@ -34,4 +44,7 @@
 
     border-radius: 25px;
     object-fit: cover;
+}
+.report .cover {
+    opacity: 0.2;
 }
