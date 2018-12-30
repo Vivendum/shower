@@ -1,0 +1,37 @@
+.shower {
+    font-family: 'PT Serif', serif;
+}
+
+.black h2,
+.black p,
+.black figcaption {
+    color: rgba(255, 255, 255, 1);
+}
+
+.black .copyright {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.scale-cover {
+    object-fit: cover;
+}
+
+.report h2,
+.report .paragraph {
+    width: 41%;
+    padding: 1% 3%;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+}
+.report .img-block {
+    position: absolute;
+    top: 5%;
+    left: 52%;
+
+    width: 28%;
+    height: auto;
+
+    border-radius: 25px;
+    object-fit: cover;
+}

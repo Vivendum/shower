@@ -15,7 +15,7 @@
 
 * Копырин П. Д.
 
-## Shower Presentation Template [![Build Status](https://travis-ci.org/shower/shower.svg?branch=master)](https://travis-ci.org/shower/shower)
+## Презентация создана с помощью Shower Presentation Template [![Build Status](https://travis-ci.org/shower/shower.svg?branch=master)](https://travis-ci.org/shower/shower)
 
 <img src="pictures/logo.png" width="250" alt="Shower logo">
 
