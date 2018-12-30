@@ -151,3 +151,26 @@ input[type="radio"].visually-hidden {
     border-radius: 25px;
     object-fit: cover;
 }
+
+.chief h2 {
+    text-align: center;
+}
+.chief h2,
+.chief .paragraph {
+    width: 41%;
+    padding: 1% 3%;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+.chief .img-block {
+    position: absolute;
+    top: 10%;
+    right: 15.5%;
+
+    width: 35%;
+    height: auto;
+
+    border-radius: 25px;
+    object-fit: cover;
+}
