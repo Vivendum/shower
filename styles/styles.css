@@ -42,7 +42,9 @@ input[type="radio"].visually-hidden {
 .black .copyright {
     color: rgba(255, 255, 255, 0.4);
 }
-
+img {
+    object-fit: cover;
+}
 .cover {
     object-fit: cover;
     opacity: 0.1;
@@ -68,25 +70,28 @@ input[type="radio"].visually-hidden {
     height: auto;
 
     border-radius: 25px;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
-.title h2 {
+
+
+.title .header {
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.brigade h2 {
-    text-align: center;
-}
-.brigade h2,
-.brigade .paragraph {
+
+
+.brigade .header {
     width: 35%;
     padding: 1% 3%;
+
+    text-align: center;
 
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 25px;
 }
-.brigade .img-kit-brigade {
+.brigade .kit-img-brigade {
     position: absolute;
     top: 0;
     right: 3.5%;
@@ -95,25 +100,27 @@ input[type="radio"].visually-hidden {
     height: 100%;
 }
 .brigade .img-brigade {
-    position: absolute;
-    top: 10%;
-
     width: 100%;
     height: auto;
+    margin-top: 12.5%;
+    margin-bottom: -5%;
 
     border-radius: 25px;
     object-fit: cover;
 }
-.brigade .paragraph-brigade {
-    position: absolute;
-    bottom: 10%;
-    left: 2.5%;
+.brigade .label-img-brigade {
+    position: relative;
 
     width: 90%;
+    margin: 0 auto;
+    padding: 1% 3%;
 
     text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
 }
-.brigade .img-kit-passport-trust{
+.brigade .kit-img-passport-trust{
     position: absolute;
     top: 0;
     left: 11.5%;
@@ -122,23 +129,25 @@ input[type="radio"].visually-hidden {
     height: 100%;
 }
 .brigade .img-passport-trust {
-    position: absolute;
-    bottom: 10%;
-
     width: 100%;
     height: auto;
+    margin-top: 90%;
+    margin-bottom: -102.5%;
 
     border-radius: 25px;
     object-fit: cover;
 }
-.brigade .paragraph-passport-trust {
-    position: absolute;
-    bottom: 52%;
-    left: 2.5%;
+.brigade .label-img-passport-trust {
+    position: relative;
 
     width: 90%;
+    margin: 0 auto;
+    padding: 1% 3%;
 
     text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
 }
 .brigade .logo-rzd {
     position: absolute;
@@ -147,23 +156,20 @@ input[type="radio"].visually-hidden {
 
     width: 50%;
     height: auto;
-
-    border-radius: 25px;
-    object-fit: cover;
 }
 
-.chief h2 {
-    text-align: center;
-}
-.chief h2,
-.chief .paragraph {
+
+
+.chief .header {
     width: 41%;
     padding: 1% 3%;
+
+    text-align: center;
 
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 25px;
 }
-.chief .img-block {
+.chief .img {
     position: absolute;
     top: 10%;
     right: 15.5%;
@@ -174,31 +180,49 @@ input[type="radio"].visually-hidden {
     border-radius: 25px;
     object-fit: cover;
 }
-
-.characteristic h2 {
-    text-align: center;
-}
-.characteristic h2,
-.characteristic p,
-.characteristic .paragraph {
-    width: 40%;
+.chief .label-img {
+    width: 41%;
     padding: 1% 3%;
 
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 25px;
 }
-.characteristic p {
-    width: auto;
-}
-.characteristic .img-kit {
-    position: absolute;
-    left: 0;
-    bottom: 5%;
 
-    width: 100%;
+
+
+.brigade-characteristic .header {
+    width: 40%;
+    padding: 1% 3%;
+
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+.brigade-characteristic .list {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+
+    padding: 1% 4%;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+.brigade-characteristic .kit-img {
+    position: absolute;
+    bottom: 10%;
+
+    width: 40%;
     height: 50%;
 }
-.characteristic .img-block {
+.brigade-characteristic .kit-img-left {
+    left: 0;
+}
+.brigade-characteristic .kit-img-right {
+    right: 0;
+}
+.brigade-characteristic .img {
     position: absolute;
 
     width: auto;
@@ -207,27 +231,25 @@ input[type="radio"].visually-hidden {
     border-radius: 25px;
     object-fit: cover;
 }
-.characteristic .img-block-left {
-    left: 23%;
+.brigade-characteristic .img-left {
+    right: 0;
 }
-.characteristic .img-block-right {
-    right: 23%;
+.brigade-characteristic .img-right {
+    left: 0;
 }
-.characteristic .paragraph {
+.brigade-characteristic .label-img-left {
     position: absolute;
-    bottom: 37%;
-
-    width: 21%;
-}
-.characteristic .paragraph-left {
-    left: 7%;
+    bottom: 25%;
+    left: 25%;
     transform: rotate(-90deg);
 }
-.characteristic .paragraph-right {
-    right: 7%;
+.brigade-characteristic .label-img-right {
+    position: absolute;
+    bottom: 35%;
+    right: 17%;
     transform: rotate(-90deg);
 }
-.characteristic .young {
+.brigade-characteristic .young {
     box-sizing: border-box;
     position: absolute;
     top: -2%;
@@ -240,16 +262,16 @@ input[type="radio"].visually-hidden {
     text-align: center;
     color: #ffffff;
 
-    background-color: rgba(068, 148, 074, 1);
+    background-color: #44944a;
     border-radius: 50%;
 }
-.characteristic .young-left {
-    left: 20.5%;
+.brigade-characteristic .young-left {
+    right: -5%;
 }
-.characteristic .young-right {
-    right: 20.5%;
+.brigade-characteristic .young-right {
+    left: -5%;
 }
-.characteristic .cover-brigade-characteristic {
+.brigade-characteristic .cover {
     width: auto;
     height: 100%;
 }
