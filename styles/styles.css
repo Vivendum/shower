@@ -529,3 +529,23 @@ input[type="radio"].visually-hidden {
 .sochi .cover {
     opacity: 1;
 }
+
+
+
+.railwaymans-day .label-img {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+
+    width: 80%;
+    padding: 1.5% 0;
+
+    text-align: center;
+    color: #ffffff;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+}
+.railwaymans-day .cover {
+    opacity: 1;
+}
