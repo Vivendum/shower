@@ -38,46 +38,104 @@ input[type="radio"].visually-hidden {
     opacity: 0.1;
 }
 
-.report h2 {
-    text-align: center;
+.slide .shout {
+    padding: 1% 0 3% 0;
+    background-color: rgba(255, 255, 255, 0.2);
 }
-.report h2,
-.report .paragraph {
-    width: 41%;
+.slide .header {
     padding: 1% 3%;
 
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
+    text-align: center;
+
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
 }
-.report .img-block {
+.slide .board {
+    position: relative;
+
+    width: 90%;
+    padding: 5%;
+    margin: 0 auto;
+
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+.slide .list {
+    padding: 1% 4%;
+
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+.slide .img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+.slide .label-img {
+    padding: 1% 3%;
+
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+.slide .label-img-black {
+    position: absolute;
+    bottom: 0;
+
+    padding: 0 1%;
+
+    text-align: left;
+    color: #ffffff;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.slide .label-img-background {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+
+    width: 80%;
+    padding: 0;
+
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+.slide .term {
+    text-decoration: underline dashed rgba(0, 0, 0, 0.2);
+    text-underline-position: under;
+
+    cursor: help;
+}
+.slide .term-white {
+    text-decoration: underline dashed rgba(255, 255, 255, 0.2);
+    text-underline-position: under;
+
+    cursor: help;
+}
+
+
+
+.report .header,
+.report .label-img {
+    width: 41%;
+}
+.report .img {
     position: absolute;
     top: 5%;
     left: 52%;
 
     width: 28%;
     height: auto;
-
-    border-radius: 25px;
-    object-fit: cover;
-}
-
-
-
-.title .header {
-    padding: 1% 0 3% 0;
-    background-color: rgba(0, 0, 0, 0.3);
 }
 
 
 
 .brigade .header {
     width: 35%;
-    padding: 1% 3%;
-
-    text-align: center;
-
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
 }
 .brigade .kit-img-brigade {
     position: absolute;
@@ -92,21 +150,14 @@ input[type="radio"].visually-hidden {
     height: auto;
     margin-top: 12.5%;
     margin-bottom: -5%;
-
-    border-radius: 25px;
-    object-fit: cover;
 }
-.brigade .label-img-brigade {
+.brigade .label-img-brigade-characteristic {
     position: relative;
 
     width: 90%;
     margin: 0 auto;
-    padding: 1% 3%;
 
     text-align: center;
-
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
 }
 .brigade .kit-img-passport-trust{
     position: absolute;
@@ -121,21 +172,6 @@ input[type="radio"].visually-hidden {
     height: auto;
     margin-top: 90%;
     margin-bottom: -102.5%;
-
-    border-radius: 25px;
-    object-fit: cover;
-}
-.brigade .label-img-passport-trust {
-    position: relative;
-
-    width: 90%;
-    margin: 0 auto;
-    padding: 1% 3%;
-
-    text-align: center;
-
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
 }
 .brigade .logo-rzd {
     position: absolute;
@@ -148,14 +184,9 @@ input[type="radio"].visually-hidden {
 
 
 
-.chief .header {
+.chief .header,
+.chief .label-img {
     width: 41%;
-    padding: 1% 3%;
-
-    text-align: center;
-
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
 }
 .chief .img {
     position: absolute;
@@ -164,38 +195,17 @@ input[type="radio"].visually-hidden {
 
     width: 35%;
     height: auto;
-
-    border-radius: 25px;
-    object-fit: cover;
-}
-.chief .label-img {
-    width: 41%;
-    padding: 1% 3%;
-
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
 }
 
 
 
 .brigade-characteristic .header {
     width: 40%;
-    padding: 1% 3%;
-
-    text-align: center;
-
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
 }
 .brigade-characteristic .list {
     position: absolute;
     top: 5%;
     left: 50%;
-
-    padding: 1% 4%;
-
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
 }
 .brigade-characteristic .kit-img {
     position: absolute;
@@ -215,9 +225,6 @@ input[type="radio"].visually-hidden {
 
     width: auto;
     height: 100%;
-
-    border-radius: 25px;
-    object-fit: cover;
 }
 .brigade-characteristic .img-left {
     right: 0;
@@ -263,30 +270,16 @@ input[type="radio"].visually-hidden {
     width: auto;
     height: 100%;
 }
-.brigade .term {
-    cursor: help;
-}
 
 
 
 .professional-asset .header {
     width: 24.5%;
-    padding: 1% 3%;
-
-    text-align: center;
-
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
 }
 .professional-asset .list {
     position: absolute;
     top: 1%;
     left: 35%;
-
-    padding: 1% 4%;
-
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
 }
 .professional-asset .showcase {
     position: absolute;
@@ -296,7 +289,7 @@ input[type="radio"].visually-hidden {
     justify-content: space-around;
 
     width: 100%;
-    height: 55%;
+    height: 54.5%;
 }
 .professional-asset .kit-img {
     height: 100%;
@@ -304,67 +297,23 @@ input[type="radio"].visually-hidden {
 .professional-asset .img {
     width: auto;
     height: 100%;
-
-    border-radius: 25px;
-    object-fit: cover;
 }
-.professional-asset .label-img {
-    position: absolute;
-    bottom: 0;
 
-    padding: 0 1%;
-
-    color: #ffffff;
-
-    background-color: #000000;
-    border-radius: 10px;
-}
-.professional-asset .term {
-    text-decoration: underline dashed rgba(0, 0, 0, 0.2);
-    text-underline-position: under;
-
-    cursor: help;
-}
-.professional-asset .term-white {
-    text-decoration-color: rgba(255, 255, 255, 0.2);
-}
 
 
 .exam .header {
     width: 40%;
-    padding: 1% 3%;
-
-    text-align: center;
-
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
-}
-.exam .board {
-    position: relative;
-
-    width: 90%;
-    padding: 5%;
-    margin: 0 auto;
-
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
 }
 
 
 
-.fire-extinguisher-training .label-img {
+.fire-extinguisher-training .label-img-background {
     position: absolute;
     bottom: 10%;
     left: 15%;
 
     width: 70%;
     padding: 1.5% 0;
-
-    text-align: center;
-    color: #ffffff;
-
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 25px;
 }
 .fire-extinguisher-training .cover {
     opacity: 1;
@@ -372,14 +321,11 @@ input[type="radio"].visually-hidden {
 
 
 
-.special-tool .header {
+.special-tool .header,
+.special-tool .label-img {
     width: 35%;
-    padding: 1% 3%;
 
     text-align: center;
-
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
 }
 .special-tool .kit-img {
     height: 100%;
@@ -391,48 +337,10 @@ input[type="radio"].visually-hidden {
 
     width: auto;
     height: 80%;
-
-    border-radius: 25px;
-    object-fit: cover;
-}
-.special-tool .label-img {
-    width: 35%;
-    padding: 1% 3%;
-
-    text-align: center;
-
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
-}
-.special-tool .term {
-    text-decoration: underline dashed rgba(0, 0, 0, 0.2);
-    text-underline-position: under;
-
-    cursor: help;
 }
 
 
 
-.fifa .label-img {
-    position: absolute;
-    bottom: 10%;
-    left: 15%;
-
-    width: 70%;
-    padding: 1.5% 0;
-
-    text-align: center;
-    color: #ffffff;
-
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 25px;
-}
-.fifa .term {
-    text-decoration: underline dashed rgba(255, 255, 255, 0.2);
-    text-underline-position: under;
-
-    cursor: help;
-}
 .fifa .cover {
     width: 100%;
 
@@ -443,18 +351,6 @@ input[type="radio"].visually-hidden {
 
 .fifa-reward .header {
     width: 50%;
-    padding: 1% 3%;
-
-    text-align: center;
-
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
-}
-.fifa-reward .term {
-    text-decoration: underline dashed rgba(0, 0, 0, 0.2);
-    text-underline-position: auto;
-
-    cursor: help;
 }
 .fifa-reward .showcase {
     position: absolute;
@@ -472,100 +368,31 @@ input[type="radio"].visually-hidden {
 .fifa-reward .img {
     width: auto;
     height: 100%;
-
-    border-radius: 25px;
-    object-fit: cover;
 }
-.fifa-reward .label-img {
-    position: absolute;
-    bottom: 0;
-
-    padding: 0 1%;
-
-    color: #ffffff;
-
-    background-color: #000000;
-    border-radius: 10px;
+.fifa-reward .term {
+    text-underline-position: auto;
 }
 
 
 
 .wall-newspaper .header {
     width: 40%;
-    padding: 1% 3%;
-
-    text-align: center;
-
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
-}
-.wall-newspaper .board {
-    position: relative;
-
-    width: 90%;
-    padding: 5%;
-    margin: 0 auto;
-
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
 }
 
 
 
-.sochi .label-img {
-    position: absolute;
-    bottom: 10%;
-    left: 15%;
-
-    width: 70%;
-    padding: 1.5% 0;
-
-    text-align: center;
-    color: #ffffff;
-
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 25px;
-}
 .sochi .cover {
     opacity: 1;
 }
 
 
 
-.railwaymans-day .label-img {
-    position: absolute;
-    bottom: 10%;
-    left: 15%;
-
-    width: 70%;
-    padding: 1.5% 0;
-
-    text-align: center;
-    color: #ffffff;
-
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 25px;
-}
 .railwaymans-day .cover {
     opacity: 1;
 }
 
 
 
-.anniversary-spiridonova .label-img {
-    position: absolute;
-    bottom: 10%;
-    left: 15%;
-
-    width: 70%;
-    padding: 1.5% 0;
-
-    text-align: center;
-    color: #ffffff;
-
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 25px;
-}
 .anniversary-spiridonova .cover {
     opacity: 1;
 }
