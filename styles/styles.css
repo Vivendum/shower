@@ -26,16 +26,11 @@ input[type="radio"].visually-hidden {
 .grey h2,
 .grey p,
 .grey figcaption {
-    color: rgba(0, 0, 0, 1);
+    color: #000000;
 }
 
 .grey .copyright {
     color: rgba(0, 0, 0, 0.4);
-}
-
-.cover {
-    object-fit: cover;
-    opacity: 0.1;
 }
 
 .slide .shout {
@@ -91,7 +86,7 @@ input[type="radio"].visually-hidden {
 }
 .slide .label-img-background {
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     left: 10%;
 
     width: 80%;
@@ -115,6 +110,10 @@ input[type="radio"].visually-hidden {
     text-underline-position: under;
 
     cursor: help;
+}
+.slide .cover {
+    object-fit: cover;
+    opacity: 0.1;
 }
 
 
@@ -307,14 +306,6 @@ input[type="radio"].visually-hidden {
 
 
 
-.fire-extinguisher-training .label-img-background {
-    position: absolute;
-    bottom: 10%;
-    left: 15%;
-
-    width: 70%;
-    padding: 1.5% 0;
-}
 .fire-extinguisher-training .cover {
     opacity: 1;
 }
@@ -392,7 +383,26 @@ input[type="radio"].visually-hidden {
 }
 
 
-
+/* Начало вариантов юбилея Спиридоновой И. М. */
 .anniversary-spiridonova .cover {
+    opacity: 1;
+}
+.anniversary-spiridonova-2 .cover {
+    height: 100%;
+    width: auto;
+}
+.anniversary-spiridonova-3 .cover {
+    height: auto;
+    width: 100%;
+}
+.anniversary-spiridonova-4 .cover {
+    height: auto;
+    width: 100%;
+}
+/* Конец вариантов юбилея Спиридоновой И. М. */
+
+
+
+.new-year .cover {
     opacity: 1;
 }
