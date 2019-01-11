@@ -428,7 +428,7 @@ input[type="radio"].visually-hidden {
     width: 33%;
 }
 .anniversary-spiridonova .kit-img-full {
-    top: 13.5%;
+    top: 10%;
     right: 3.5%;
 
     width: 40%;
@@ -451,6 +451,22 @@ input[type="radio"].visually-hidden {
 
     width: 40%;
 }
-.anniversary-pohorukova .label-img {
-    top: 90%;
+
+
+
+.anniversary-ajsvirt .kit-img-one {
+    top: 7%;
+    left: 7%;
+
+    width: 33%;
+}
+.anniversary-ajsvirt .kit-img-full {
+    top: 23%;
+    right: 3.5%;
+
+    width: 40%;
+}
+.anniversary-ajsvirt .kit-img-full .img {
+    background-color: #000000;
+    opacity: 0.3;
 }
