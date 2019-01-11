@@ -398,21 +398,11 @@ input[type="radio"].visually-hidden {
 
 
 .event .header-center {
-    color: red;
+    color: #ff0000;
 }
-.event .kit-img-one {
-    position: absolute;
-    top: 5%;
-    left: 7%;
-
-    width: 33%;
-}
+.event .kit-img-one,
 .event .kit-img-full {
     position: absolute;
-    top: 23%;
-    right: 3.5%;
-
-    width: 40%;
 }
 .event .img {
     width: 100%;
@@ -427,4 +417,40 @@ input[type="radio"].visually-hidden {
     margin: 0 auto;
 
     text-align: center;
+}
+
+
+
+.anniversary-spiridonova .kit-img-one {
+    top: 9%;
+    left: 7%;
+
+    width: 33%;
+}
+.anniversary-spiridonova .kit-img-full {
+    top: 13.5%;
+    right: 3.5%;
+
+    width: 40%;
+}
+.anniversary-spiridonova .label-img {
+    top: 93%;
+}
+
+
+
+.anniversary-pohorukova .kit-img-one {
+    top: 5%;
+    left: 7%;
+
+    width: 33%;
+}
+.anniversary-pohorukova .kit-img-full {
+    top: 23%;
+    right: 3.5%;
+
+    width: 40%;
+}
+.anniversary-pohorukova .label-img {
+    top: 90%;
 }
