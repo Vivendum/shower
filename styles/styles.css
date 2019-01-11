@@ -45,6 +45,24 @@ input[type="radio"].visually-hidden {
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 10px;
 }
+.slide .header-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+
+    width: 110px;
+    height: 110px;
+    margin-top: -55px;
+    margin-left: -55px;
+
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+}
 .slide .board {
     position: relative;
 
@@ -372,37 +390,41 @@ input[type="radio"].visually-hidden {
 
 
 
-.sochi .cover {
-    opacity: 1;
-}
-
-
-
-.railwaymans-day .cover {
-    opacity: 1;
-}
-
-
-/* Начало вариантов юбилея Спиридоновой И. М. */
-.anniversary-spiridonova .cover {
-    opacity: 1;
-}
-.anniversary-spiridonova-2 .cover {
-    height: 100%;
-    width: auto;
-}
-.anniversary-spiridonova-3 .cover {
-    height: auto;
-    width: 100%;
-}
-.anniversary-spiridonova-4 .cover {
-    height: auto;
-    width: 100%;
-}
-/* Конец вариантов юбилея Спиридоновой И. М. */
-
-
-
+.sochi .cover,
+.railwaymans-day .cover,
 .new-year .cover {
     opacity: 1;
+}
+
+
+.event .header-center {
+    color: red;
+}
+.event .kit-img-one {
+    position: absolute;
+    top: 5%;
+    left: 7%;
+
+    width: 33%;
+}
+.event .kit-img-full {
+    position: absolute;
+    top: 23%;
+    right: 3.5%;
+
+    width: 40%;
+}
+.event .img {
+    width: 100%;
+    height: auto;
+}
+.event .label-img {
+    position: absolute;
+    top: 90%;
+    left: 2.5%;
+
+    width: 90%;
+    margin: 0 auto;
+
+    text-align: center;
 }
