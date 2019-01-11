@@ -110,6 +110,7 @@ input[type="radio"].visually-hidden {
     width: 80%;
     padding: 0;
 
+    font-weight: 700;
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
@@ -466,26 +467,22 @@ input[type="radio"].visually-hidden {
 
     width: 40%;
 }
-.anniversary-ajsvirt .kit-img-full .img {
-    background-color: #000000;
-    opacity: 0.3;
-}
 
 
-.wedding-pearls .header {
-    margin: -7% 15% 0;
+.wedding-pearls .header-center {
+    color: #00aa00;
 }
 .wedding-pearls .kit-img-one {
-    top: 20%;
-    left: 10%;
+    top: 5%;
+    left: 7%;
 
-    width: 28%;
+    width: 33%;
 }
 .wedding-pearls .kit-img-full {
-    top: 20%;
-    right: 10%;
+    top: 15%;
+    right: 5%;
 
-    width: 41%;
+    width: 37%;
 }
 
 
