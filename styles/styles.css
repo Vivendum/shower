@@ -472,18 +472,24 @@ input[type="radio"].visually-hidden {
 }
 
 
-.wedding-silver .header {
+.wedding-pearls .header {
     margin: -7% 15% 0;
 }
-.wedding-silver .kit-img-one {
+.wedding-pearls .kit-img-one {
     top: 20%;
     left: 10%;
 
     width: 28%;
 }
-.wedding-silver .kit-img-full {
+.wedding-pearls .kit-img-full {
     top: 20%;
     right: 10%;
 
     width: 41%;
+}
+
+
+
+.wedding-holy .cover {
+    opacity: 1;
 }
