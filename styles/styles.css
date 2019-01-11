@@ -470,3 +470,20 @@ input[type="radio"].visually-hidden {
     background-color: #000000;
     opacity: 0.3;
 }
+
+
+.wedding-silver .header {
+    margin: -7% 15% 0;
+}
+.wedding-silver .kit-img-one {
+    top: 20%;
+    left: 10%;
+
+    width: 28%;
+}
+.wedding-silver .kit-img-full {
+    top: 20%;
+    right: 10%;
+
+    width: 41%;
+}
