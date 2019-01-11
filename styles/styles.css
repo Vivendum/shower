@@ -493,3 +493,18 @@ input[type="radio"].visually-hidden {
 .wedding-holy .cover {
     opacity: 1;
 }
+
+
+.grandchildren .cover,
+.home .cover {
+    width: 100%;
+    height: auto;
+
+    opacity: 1;
+}
+
+
+
+.auto .cover {
+    opacity: 1;
+}
