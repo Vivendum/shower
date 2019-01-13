@@ -186,6 +186,109 @@ input[type="radio"].visually-hidden {
 .plan::before {
   background-image: url("../img/pohorukova-2018-2/pictures-journey.jpeg");
 }
+
+.event .header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* z-index: 1; */
+
+  width: 110px;
+  height: 110px;
+  margin-top: -55px;
+  margin-left: -55px;
+
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  color: #ff0000;
+
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+}
+.event .kit-img-one,
+.event .kit-img-full {
+  position: absolute;
+}
+.event .img {
+  width: 100%;
+  height: auto;
+
+  border-radius: 10px;
+}
+.event .label-img {
+  position: absolute;
+  top: 90%;
+  left: 5%;
+
+  width: 90%;
+  margin: 0 auto;
+
+  text-align: center;
+
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+}
+.anniversary-spiridonova .kit-img-one {
+  top: 9%;
+  left: 7%;
+
+  width: 33%;
+}
+.anniversary-spiridonova .kit-img-full {
+  top: 10%;
+  right: 3.5%;
+
+  width: 40%;
+}
+.anniversary-spiridonova .label-img {
+  top: 93%;
+}
+.anniversary-pohorukova .kit-img-one {
+  top: 5%;
+  left: 7%;
+
+  width: 33%;
+}
+.anniversary-pohorukova .kit-img-full {
+  top: 23%;
+  right: 3.5%;
+
+  width: 40%;
+}
+.anniversary-ajsvirt .kit-img-one {
+  top: 7%;
+  left: 7%;
+
+  width: 33%;
+}
+.anniversary-ajsvirt .kit-img-full {
+  top: 23%;
+  right: 3.5%;
+
+  width: 40%;
+}
+.wedding-pearls .header {
+  color: #00aa00;
+}
+.wedding-pearls .kit-img-one {
+  top: 5%;
+  left: 7%;
+
+  width: 33%;
+}
+.wedding-pearls .kit-img-full {
+  top: 15%;
+  right: 5%;
+
+  width: 37%;
+}
+
+
+
+.wedding-holy .cover {
+    /* opacity: 1; */
+}
 /*
 .grey .copyright {
     color: rgba(0, 0, 0, 0.4);
@@ -579,27 +682,6 @@ input[type="radio"].visually-hidden {
 }
 
 
-.event .header-center {
-    color: #ff0000;
-}
-.event .kit-img-one,
-.event .kit-img-full {
-    position: absolute;
-}
-.event .img {
-    width: 100%;
-    height: auto;
-}
-.event .label-img {
-    position: absolute;
-    top: 90%;
-    left: 2.5%;
-
-    width: 90%;
-    margin: 0 auto;
-
-    text-align: center;
-}
 
 
 
