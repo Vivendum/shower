@@ -1,8 +1,8 @@
 # Полезная информация
 
-## Отчёт о презентациях
+## Отчёт
 
-1. 2019.01. создана 1-ая презентация для отчёта за 2018 год профсоюзу от профгруппорга Копыриной Л. В.
+1. **2019.01.** создал 1-ую [презентацию](https://vivendum.github.io/shower/presentation/pohorukova-2018-2) для отчёта за 2018 год профсоюзу от профгруппорга поезда 45/46 "Екатеринбург-Кисловодск" Копыриной Л. В. Узнал о markdown, GitHub Pages.
 
 ## Об авторе
 
@@ -10,16 +10,18 @@
 
 Копырин Павел Дмитриевич
 
+![Эдвард Элрик из аниме "Цельнаметалический алхимик"](img/edward-elric.jpg)
+
 ### Мотив
 
-1. Практическая деятельность: HTML, CSS, JS
-2. Освоение нового: презентация, GitHub, markdown и др.
+1. Практическая деятельность: HTML, CSS, JS и др.
+2. Обучение новому: презентация, GitHub, markdown и др.
 3. Создание портфолио
 4. Дополнительный заработок
 
 ## Контакты
 
-* Мой e-mail - vivendum@mail.ru
+* Мой e-mail vivendum@mail.ru
 * Я на [GitHub](https://github.com/vivendum)
 * Я в [моём круге](https://moikrug.ru/vivendum)
 
@@ -27,7 +29,7 @@
 
 ### Shower Presentation Template [![Build Status](https://travis-ci.org/shower/shower.svg?branch=master)](https://travis-ci.org/shower/shower)
 
-<img src="img/logo-shower.png" width="100" alt="Shower logo">
+![Shower logo](img/logo-shower.png)
 
 > Shower ['ʃəuə] noun. A person or thing that shows.
 
