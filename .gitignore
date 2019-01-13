@@ -7,7 +7,7 @@
 *.psd
 *.zip
 *.sublime*
+npm-debug.*
 node_modules/
 prepared/
-npm-debug.*
 Thumbs.db
