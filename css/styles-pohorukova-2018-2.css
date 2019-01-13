@@ -11,7 +11,8 @@ input[type="radio"].visually-hidden {
 
   white-space: nowrap;
 
-  clip-path: inset(100%);
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -78,10 +79,12 @@ input[type="radio"].visually-hidden {
   width: auto;
 
   border-radius: 10px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .type-personality .term {
-  text-decoration: underline dashed rgba(0, 0, 0, 0.2);
+  -webkit-text-decoration: underline dashed rgba(0, 0, 0, 0.2);
+          text-decoration: underline dashed rgba(0, 0, 0, 0.2);
   text-underline-position: under;
 
   cursor: help;
@@ -131,7 +134,8 @@ input[type="radio"].visually-hidden {
   width: 100%;
   height: auto;
 
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .type-label-photo .header {
   width: 45%;
@@ -143,10 +147,13 @@ input[type="radio"].visually-hidden {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
 
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 .type-label-photo .term {
-  text-decoration: underline dashed rgba(255, 255, 255, 0.2);
+  -webkit-text-decoration: underline dashed rgba(255, 255, 255, 0.2);
+          text-decoration: underline dashed rgba(255, 255, 255, 0.2);
   text-underline-position: under;
 
   cursor: help;
@@ -304,7 +311,8 @@ input[type="radio"].visually-hidden {
   border-radius: 10px;
 }
 .list-img .term {
-  text-decoration: underline dashed rgba(0, 0, 0, 0.2);
+  -webkit-text-decoration: underline dashed rgba(0, 0, 0, 0.2);
+          text-decoration: underline dashed rgba(0, 0, 0, 0.2);
   text-underline-position: under;
 
   cursor: help;
@@ -313,8 +321,11 @@ input[type="radio"].visually-hidden {
   position: absolute;
   bottom: 5%;
   left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 
   width: 100%;
   height: 54.5%;
@@ -344,7 +355,8 @@ input[type="radio"].visually-hidden {
   border-bottom-left-radius: 10px;
 }
 .list-img .label-img .term {
-  text-decoration: underline dashed rgba(255, 255, 255, 0.2);
+  -webkit-text-decoration: underline dashed rgba(255, 255, 255, 0.2);
+          text-decoration: underline dashed rgba(255, 255, 255, 0.2);
 
   cursor: help;
 }
