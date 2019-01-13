@@ -191,7 +191,6 @@ input[type="radio"].visually-hidden {
   position: absolute;
   top: 50%;
   left: 50%;
-  /* z-index: 1; */
 
   width: 110px;
   height: 110px;
@@ -284,514 +283,166 @@ input[type="radio"].visually-hidden {
   width: 37%;
 }
 
+.list-img .header {
+  position: relative;
+  z-index: 1;
 
+  padding: 1% 3%;
 
-.wedding-holy .cover {
-    /* opacity: 1; */
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
 }
-/*
-.grey .copyright {
-    color: rgba(0, 0, 0, 0.4);
+.list-img .list {
+  position: absolute;
+  top: 1%;
+  left: 35%;
+
+  padding: 0 3%;
+  padding-left: 5%;
+
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
 }
+.list-img .term {
+  text-decoration: underline dashed rgba(0, 0, 0, 0.2);
+  text-underline-position: under;
 
-.slide .header {
-    padding: 1% 3%;
-
-    text-align: center;
-
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 10px;
+  cursor: help;
 }
-.slide .header-center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 1;
+.list-img .showcase {
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
 
-    width: 110px;
-    height: 110px;
-    margin-top: -55px;
-    margin-left: -55px;
-
-    font-weight: 700;
-    text-align: center;
-    vertical-align: middle;
-
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 50%;
+  width: 100%;
+  height: 54.5%;
 }
-.slide .board {
-    position: relative;
+.list-img .kit-img {
+  position: relative;
 
-    width: 90%;
-    padding: 5%;
-    margin: 0 auto;
-
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 10px;
+  height: 100%;
 }
-.slide .list {
-    padding: 1% 4%;
+.list-img .img {
+  width: auto;
+  height: 100%;
 
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 10px;
+  border-radius: 10px;
 }
-.slide .img {
-    border-radius: 10px;
-    object-fit: cover;
+.list-img .label-img {
+  position: absolute;
+  bottom: 0;
+
+  padding: 0 2%;
+
+  text-align: left;
+  color: #ffffff;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
-.slide .label-img {
-    padding: 1% 3%;
+.list-img .label-img .term {
+  text-decoration: underline dashed rgba(255, 255, 255, 0.2);
 
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 10px;
+  cursor: help;
 }
-.slide .label-img-black {
-    position: absolute;
-    bottom: 0;
-
-    padding: 0 1%;
-
-    text-align: left;
-    color: #ffffff;
-
-    background-color: rgba(0, 0, 0, 0.8);
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-.slide .label-img-background {
-    position: absolute;
-    bottom: 5%;
-    left: 10%;
-
-    width: 80%;
-    padding: 0;
-
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    color: #ffffff;
-
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
-}
-.slide .term {
-    text-decoration: underline dashed rgba(0, 0, 0, 0.2);
-    text-underline-position: under;
-
-    cursor: help;
-}
-.slide .term-white {
-    text-decoration: underline dashed rgba(255, 255, 255, 0.2);
-    text-underline-position: under;
-
-    cursor: help;
-}
-.slide .cover {
-    object-fit: cover;
-    opacity: 0.1;
-}
-
-
-
-.report .header,
-.report .label-img {
-    width: 41%;
-}
-.report .img {
-    position: absolute;
-    top: 5%;
-    left: 52%;
-
-    width: 28%;
-    height: auto;
-}
-
-
-
-.brigade .header {
-    width: 35%;
-}
-.brigade .kit-img-brigade {
-    position: absolute;
-    top: 0;
-    right: 3.5%;
-
-    width: 50%;
-    height: 100%;
-}
-.brigade .img-brigade {
-    width: 100%;
-    height: auto;
-    margin-top: 12.5%;
-    margin-bottom: -5%;
-}
-.brigade .label-img-brigade-characteristic {
-    position: relative;
-
-    width: 90%;
-    margin: 0 auto;
-
-    text-align: center;
-}
-.brigade .kit-img-passport-trust{
-    position: absolute;
-    top: 0;
-    left: 11.5%;
-
-    width: 30%;
-    height: 100%;
-}
-.brigade .img-passport-trust {
-    width: 100%;
-    height: auto;
-    margin-top: 90%;
-    margin-bottom: -102.5%;
-}
-.brigade .logo-rzd {
-    position: absolute;
-    bottom: 70%;
-    left: 25%;
-
-    width: 50%;
-    height: auto;
-}
-
-
-
-.chief .header,
-.chief .label-img {
-    width: 41%;
-}
-.chief .img {
-    position: absolute;
-    top: 10%;
-    right: 15.5%;
-
-    width: 35%;
-    height: auto;
-}
-
-
-
 .brigade-characteristic .header {
-    width: 40%;
+  width: 30%;
 }
 .brigade-characteristic .list {
-    position: absolute;
-    top: 5%;
-    left: 50%;
+  top: 6%;
+  left: 40%;
 }
-.brigade-characteristic .kit-img {
-    position: absolute;
-    bottom: 10%;
+.brigade-characteristic .kit-img::after {
+  content: "<35";
 
-    width: 40%;
-    height: 50%;
-}
-.brigade-characteristic .kit-img-left {
-    left: 0;
-}
-.brigade-characteristic .kit-img-right {
-    right: 0;
-}
-.brigade-characteristic .img {
-    position: absolute;
+  position: absolute;
+  top: -5%;
+  left: -5%;
 
-    width: auto;
-    height: 100%;
-}
-.brigade-characteristic .img-left {
-    right: 0;
-}
-.brigade-characteristic .img-right {
-    left: 0;
-}
-.brigade-characteristic .label-img-left {
-    position: absolute;
-    bottom: 25%;
-    left: 25%;
-    transform: rotate(-90deg);
-}
-.brigade-characteristic .label-img-right {
-    position: absolute;
-    bottom: 35%;
-    right: 17%;
-    transform: rotate(-90deg);
-}
-.brigade-characteristic .young {
-    box-sizing: border-box;
-    position: absolute;
-    top: -2%;
+  display: block;
+  width: 55px;
+  height: 55px;
+  padding: 5px;
 
-    display: block;
-    width: 60px;
-    height: 60px;
-    padding: 5px 0;
+  text-align: center;
+  color: #ffffff;
 
-    text-align: center;
-    color: #ffffff;
-
-    background-color: #44944a;
-    border-radius: 50%;
+  background-color: #44944a;
+  border-radius: 50%;
 }
-.brigade-characteristic .young-left {
-    right: -5%;
-}
-.brigade-characteristic .young-right {
-    left: -5%;
-}
-.brigade-characteristic .cover {
-    width: auto;
-    height: 100%;
-}
-
-
-
 .professional-asset .header {
-    width: 24.5%;
+  width: 24.5%;
 }
-.professional-asset .list {
-    position: absolute;
-    top: 1%;
-    left: 35%;
-}
-.professional-asset .showcase {
-    position: absolute;
-    bottom: 5%;
-    left: 0;
-    display: flex;
-    justify-content: space-around;
-
-    width: 100%;
-    height: 54.5%;
-}
-.professional-asset .kit-img {
-    height: 100%;
-}
-.professional-asset .img {
-    width: auto;
-    height: 100%;
-}
-
-
-
-.exam .header {
-    width: 40%;
-}
-
-
-
-.fire-extinguisher-training .cover {
-    opacity: 1;
-}
-
-
-
-.special-tool .header,
-.special-tool .label-img {
-    width: 35%;
-
-    text-align: center;
-}
-.special-tool .kit-img {
-    height: 100%;
-}
-.special-tool .img {
-    position: absolute;
-    top: 10%;
-    right: 5%;
-
-    width: auto;
-    height: 80%;
-}
-
-
-
-.fifa .cover {
-    width: 100%;
-
-    opacity: 1;
-}
-
-
-
 .fifa-reward .header {
-    width: 50%;
+  width: 50%;
+}
+.fifa-reward .header .term {
+  text-underline-position: auto;
 }
 .fifa-reward .showcase {
-    position: absolute;
-    bottom: 2.5%;
-    left: 0;
-    display: flex;
-    justify-content: space-around;
-
-    width: 100%;
-    height: 70%;
-}
-.fifa-reward .kit-img {
-    height: 100%;
-}
-.fifa-reward .img {
-    width: auto;
-    height: 100%;
-}
-.fifa-reward .term {
-    text-underline-position: auto;
+  height: 65%;
 }
 
+.brigade .header {
+  width: 35%;
+  padding: 1% 3%;
 
+  text-align: center;
 
-.professional-skill-contest .cover {
-    opacity: 1;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
 }
+.brigade .kit-img-brigade {
+  position: absolute;
+  top: 0;
+  right: 3.5%;
 
-
-
-.wall-newspaper .header {
-    width: 40%;
-    background-color: rgba(255, 255, 255, 0.9);
+  width: 50%;
+  height: 100%;
 }
-.wall-newspaper .board {
-    background-color: rgba(255, 255, 255, 0.9);
+.brigade .img {
+  border-radius: 10px;
 }
-.wall-newspaper .cover {
-    opacity: 1;
+.brigade .img-brigade {
+  width: 100%;
+  height: auto;
+  margin-top: 12.5%;
+  margin-bottom: -5%;
 }
-
-
-
-
-.recuperation .header {
-    width: 40%;
-    background-color: rgba(255, 255, 255, 0.9);
+.brigade .label-img {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
 }
-.recuperation .board {
-    background-color: rgba(255, 255, 255, 0.9);
+.brigade .label-img-brigade-characteristic {
+  position: relative;
+
+  width: 90%;
+  margin: 0 auto;
+
+  text-align: center;
 }
-.recuperation .cover {
-    opacity: 1;
+.brigade .kit-img-passport-trust{
+  position: absolute;
+  top: 0;
+  left: 11.5%;
+
+  width: 30%;
+  height: 100%;
 }
-
-
-
-.sochi .cover,
-.railwaymans-day .cover,
-.new-year .cover {
-    opacity: 1;
+.brigade .img-passport-trust {
+  width: 100%;
+  height: auto;
+  margin-top: 90%;
+  margin-bottom: -102.5%;
 }
+.brigade .logo-rzd {
+  position: absolute;
+  bottom: 70%;
+  left: 25%;
 
-
-
-
-
-.anniversary-spiridonova .kit-img-one {
-    top: 9%;
-    left: 7%;
-
-    width: 33%;
-}
-.anniversary-spiridonova .kit-img-full {
-    top: 10%;
-    right: 3.5%;
-
-    width: 40%;
-}
-.anniversary-spiridonova .label-img {
-    top: 93%;
-}
-
-
-
-.anniversary-pohorukova .kit-img-one {
-    top: 5%;
-    left: 7%;
-
-    width: 33%;
-}
-.anniversary-pohorukova .kit-img-full {
-    top: 23%;
-    right: 3.5%;
-
-    width: 40%;
-}
-
-
-
-.anniversary-ajsvirt .kit-img-one {
-    top: 7%;
-    left: 7%;
-
-    width: 33%;
-}
-.anniversary-ajsvirt .kit-img-full {
-    top: 23%;
-    right: 3.5%;
-
-    width: 40%;
-}
-
-
-.wedding-pearls .header-center {
-    color: #00aa00;
-}
-.wedding-pearls .kit-img-one {
-    top: 5%;
-    left: 7%;
-
-    width: 33%;
-}
-.wedding-pearls .kit-img-full {
-    top: 15%;
-    right: 5%;
-
-    width: 37%;
-}
-
-
-
-.wedding-holy .cover {
-    opacity: 1;
-}
-
-.grandchildren .header {
-    width: 40%;
-    margin-top: -7%;
-    margin-left: -9%;
-
-    background-color: rgba(255, 255, 255, 0.6);
-}
-.grandchildren .cover{
-    width: 100%;
-    height: auto;
-
-    opacity: 1;
-}
-
-
-
-.home .cover {
-    width: 100%;
-    height: auto;
-
-    opacity: 1;
-}
-
-
-
-.auto .cover{
-    opacity: 1;
-}
-
-
-
-.plan .header {
-    width: 40%;
-    background-color: rgba(255, 255, 255, 0.9);
-}
-.plan .board {
-    background-color: rgba(255, 255, 255, 0.9);
-}
-.plan .cover {
-    opacity: 1;
+  width: 50%;
+  height: auto;
 }
