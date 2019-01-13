@@ -1,16 +1,33 @@
-# Презентация
+# Полезная информация
 
-## Об авторе презентаций
+## Отчёт о презентациях
 
-### Ф. И. О.
+1. 2019.01. создана 1-ая презентация для отчёта за 2018 год профсоюзу от профгруппорга Копыриной Л. В.
+
+## Об авторе
+
+### ФИО
+
 Копырин Павел Дмитриевич
-### Контакты
-[e-mail](vivendum@mail.ru)
-[Мой круг](https://moikrug.ru/vivendum)
 
-## Презентация создана с помощью Shower Presentation Template [![Build Status](https://travis-ci.org/shower/shower.svg?branch=master)](https://travis-ci.org/shower/shower)
+### Мотив
 
-<img src="img/logo-shower.png" width="250" alt="Shower logo">
+1. Практическая деятельность: HTML, CSS, JS
+2. Освоение нового: презентация, GitHub, markdown и др.
+3. Создание портфолио
+4. Дополнительный заработок
+
+## Контакты
+
+* Мой e-mail - vivendum@mail.ru
+* Я на [GitHub](https://github.com/vivendum)
+* Я в [моём круге](https://moikrug.ru/vivendum)
+
+## Используемый инструмент
+
+### Shower Presentation Template [![Build Status](https://travis-ci.org/shower/shower.svg?branch=master)](https://travis-ci.org/shower/shower)
+
+<img src="img/logo-shower.png" width="100" alt="Shower logo">
 
 > Shower ['ʃəuə] noun. A person or thing that shows.
 
@@ -25,11 +42,11 @@
 Follow [@shower_me](https://twitter.com/shower_me) for support and updates, [file an issue](https://github.com/shower/shower/issues/new) if you have any.
 
 
-### Browser Support
+#### Browser Support
 
 Latest stable versions of Chrome, Edge, Firefox, and Safari are supported.
 
-### Contributing
+#### Contributing
 
 You’re always welcome to contribute. Fork project, make changes and send it as pull request. But it’s better to file an [issue](https://github.com/shower/shower/issues) with your idea first. Read [contributing rules](CONTRIBUTING.md) for more details.
 
