@@ -17,7 +17,7 @@
 
 ## Презентация создана с помощью Shower Presentation Template [![Build Status](https://travis-ci.org/shower/shower.svg?branch=master)](https://travis-ci.org/shower/shower)
 
-<img src="pictures/logo.png" width="250" alt="Shower logo">
+<img src="img/logo-shower.png" width="250" alt="Shower logo">
 
 > Shower ['ʃəuə] noun. A person or thing that shows.
 
