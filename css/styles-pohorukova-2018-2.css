@@ -22,7 +22,6 @@ input[type="radio"].visually-hidden {
 
 .slide {
   background-color: #dcdcdc;
-  background-color: #ffffff;
 }
 
 .slide::before {
@@ -41,26 +40,77 @@ input[type="radio"].visually-hidden {
   opacity: 0.1;
 }
 
+.slide h2 {
+  color: #000000;
+}
+
+.slide .term {
+  position: relative;
+  z-index: 1;
+
+  text-decoration: underline dashed rgba(0, 0, 0, 0.2);
+  text-underline-position: under;
+
+  cursor: help;
+}
+
 .slide .shout {
   padding: 1% 0 3% 0;
 
   text-transform: lowercase;
-  color: #000000;
 
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.grey {
-    /* background-color: #dcdcdc; */
-}
-.grey h2,
-.grey p,
-.grey figcaption {
-    color: #000000;
-}
+.type-personality .header,
+.type-personality .label-img {
+  margin-top: 10%;
+  margin-left: -7%;
+  padding: 1% 3%;
 
+  text-align: center;
+
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.type-personality .label-img {
+  margin-top: 0;
+}
+.type-personality .img {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+
+  height: 90%;
+  width: auto;
+
+  border-radius: 10px;
+  object-fit: cover;
+}
+.head-vocational-group .header,
+.head-vocational-group .label-img {
+  width: 45%;
+}
+.head-vocational-group .img {
+  right: 20%;
+}
+.chief .header,
+.chief .label-img {
+  width: 54%;
+}
+.chief .img {
+  right: 4%;
+}
+.special-tool .header,
+.special-tool .label-img {
+  width: 36%;
+}
+.special-tool .img {
+  right: 2.5%;
+}
+/*
 .grey .copyright {
-    /* color: rgba(0, 0, 0, 0.4); */
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .slide .header {
