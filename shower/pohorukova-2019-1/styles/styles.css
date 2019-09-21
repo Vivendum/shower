@@ -1,0 +1,84 @@
+.brigade .header {
+  width: 41%;
+
+  text-align: center;
+}
+.brigade .kit-img-brigade {
+  position: absolute;
+  top: 0;
+  right: 3.5%;
+
+  width: 50%;
+  height: 100%;
+}
+.brigade .img-brigade {
+  width: 100%;
+  height: auto;
+
+  margin-top: 12.5%;
+}
+.brigade .label-img-brigade-characteristic {
+  position: relative;
+
+  text-align: center;
+}
+.brigade .kit-img-passport-trust{
+  position: absolute;
+  top: 0;
+  left: 11.5%;
+
+  width: 30%;
+  height: 100%;
+}
+.brigade .img-passport-trust {
+  width: 100%;
+  height: auto;
+  margin-top: 90%;
+  margin-bottom: -105%;
+}
+.brigade .logo-rzd {
+  position: absolute;
+  bottom: 70%;
+  left: 25%;
+
+  width: 50%;
+  height: auto;
+}
+.brigade .term {
+  cursor: help;
+}
+.brigade .img {
+  border-radius: 10px;
+}
+.type-personality .header,
+.type-personality .label-img {
+  position: relative;
+
+  text-align: center;
+}
+.type-personality .img {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+
+  height: 90%;
+  width: auto;
+
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.profgruporg .header,
+.profgruporg .label-img {
+  width: 45%;
+}
+.profgruporg .img {
+  right: 20%;
+}
+.chief .header,
+.chief .label-img {
+  width: 54%;
+}
+.chief .img {
+  right: 4%;
+}
