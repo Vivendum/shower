@@ -82,6 +82,13 @@
 .chief .img {
   right: 4%;
 }
+.youth .header,
+.youth .label-img {
+  width: 54%;
+}
+.youth .img {
+  right: 4%;
+}
 .list-img .header {
   position: relative;
 }
