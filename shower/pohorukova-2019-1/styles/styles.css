@@ -75,18 +75,11 @@
 .profgruporg .img {
   right: 20%;
 }
-.chief .header,
-.chief .label-img {
+.image-norm .header,
+.image-norm .label-img {
   width: 54%;
 }
-.chief .img {
-  right: 4%;
-}
-.youth .header,
-.youth .label-img {
-  width: 54%;
-}
-.youth .img {
+.image-norm .img {
   right: 4%;
 }
 .list-img .header {
