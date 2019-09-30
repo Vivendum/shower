@@ -160,3 +160,12 @@
 .comment-list .column-name {
   width: 50%;
 }
+.professional-asset .header {
+  width: 24.5%;
+}
+.anniversaries .header {
+  margin-left: -5%;
+}
+.anniversaries .showcase {
+  height: 65%;
+}
