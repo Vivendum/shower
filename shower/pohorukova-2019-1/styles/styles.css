@@ -197,3 +197,15 @@ input[type="radio"].visually-hidden {
   width: 49%;
   height: auto;
 }
+.heal-list .header {
+  margin-top: -7%;
+}
+.heal-list .header-table {
+  padding-left: 6%;
+
+  font-weight: bold;
+  text-align: left;
+}
+.heal-list .column-width {
+  width: 60%;
+}
