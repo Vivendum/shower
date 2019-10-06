@@ -35,6 +35,15 @@ input[type="radio"].visually-hidden {
 
   margin-top: 12.5%;
 }
+.brigade .img-oibd {
+  position: relative;
+  left: 22.5%;
+
+  width: auto;
+  height: 65%;
+
+  margin-top: 12.5%;
+}
 .brigade .label-img-brigade-characteristic {
   position: relative;
 
@@ -67,6 +76,12 @@ input[type="radio"].visually-hidden {
 }
 .brigade .img {
   border-radius: 10px;
+}
+.brigade .img-document {
+  width: 50%;
+  height: auto;
+
+  margin-top: 40px;
 }
 .type-personality .header,
 .type-personality .label-img {
