@@ -164,6 +164,29 @@ input[type="radio"].visually-hidden {
 
   cursor: help;
 }
+.type-label-photo .label-img {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+
+  width: 80%;
+  padding: 0;
+
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+.type-label-photo .cover {
+  width: 100%;
+  height: auto;
+
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .professional-asset .header {
   margin-top: -3.5%;
   margin-left: -3.5%;
