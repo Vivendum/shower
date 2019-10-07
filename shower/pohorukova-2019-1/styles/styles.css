@@ -202,6 +202,10 @@ input[type="radio"].visually-hidden {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.type-label-photo .img-appearance {
+  width: auto;
+  height: 100%;
+}
 .professional-asset .header {
   margin-top: -3.5%;
   margin-left: -3.5%;
@@ -250,7 +254,6 @@ input[type="radio"].visually-hidden {
 .ulot .list {
   width: 50%;
 }
-
 .message .month {
   font-size: 34px;
 }
